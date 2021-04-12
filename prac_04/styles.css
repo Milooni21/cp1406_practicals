@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.wrapper {
+    background: url(images/329649_9775.jpg) no-repeat;
+    /* filter: blur(6px);  */
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 140px;
+    height: outo;
+    padding: 20px 100px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a:active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: DarkSlateBlue;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: white;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    border-radius:25px;
+    transition: .5s;
+}
+
+.buttons button:hover{
+    background: lightgray;
+
+}
+
+.contact{
+    background-color: aliceblue;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* *************************************************** */
+
+.history{
+    padding: 80px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.training{
+    padding: 80px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.computer{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.computer:hover{
+    box-shadow: 0 0 10px 10px rgba(0,140, 186, 0.5);
+}
+
+.test_1{
+    background-color: bisque;
+    margin-top: 5%;
+    margin-right: 10px;
+    float: right;
+    width: 45%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.navbar_1 ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar_1 ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar_1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navbar_1 ul li a:active,
+.navbar_1 ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+
+.people{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    padding-top: 10px;
+    width: 50%;
+    display: block;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5px;
+}
+
+.people:hover{
+    box-shadow: 0 0 10px 10px lightgray;
+}
+
+.test_2{
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    float: right;
+    width: 45%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.test3 {
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-right: 2px;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    float: middle;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.test4 {
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-right: 2px;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    float: middle;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.test5 {
+    background-color: lightgrey;
+    margin-right: 2px;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    float: middle;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.test6 {
+    background-color: lightgrey;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    float: middle;
+    width: 90%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
