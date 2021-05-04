@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Reservation Form</title>
+</head>
+
+<body style="background-color:yellow;">
+    <div>
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandatory</h3>
+        <form id="registratio_form" method="POST">
+            <div>
+                <label for="fullname">Full name*:</label>
+                <input id="fullname" placeholder="FirstName LastName" type="text"> 
+            
+                <label for="emailaddress">Email address*:</label>
+                <input id="emailaddress" name="email_addr" value=""> 
+                </div><br>
+                <p>Select Tour Package*:</p>
+            <select>
+                <option value="Goa">Goa</option>
+                <option value="Kashmir" >Kashmir</options>
+                <option value="Rajasthan" >Rajasthan</options>
+            </select><br><br>
+
+            <label for="start">Arrival date*:</label><br>
+            <input type="date" id="start" name="trip-start" value="2021-06-04" min="2021-06-04" max="2022-06-04"><br><br>
+            <label>Number of persons*:</label><br>
+            <input type="text" name="persons" value=""><br><br>
+            <label>What would you want to avail?*</label> <br>
+            <input type="checkbox" name="facilities[]" value="boarding">Boarding<br>
+            <input type="checkbox" name="facilities[]" value="fooding">Fooding<br>
+            <input type="checkbox" name="facilities[]" value="sightseeing">Sight seeing<br><br>
+            <label>Discount Coupon code:</label><br>
+            <input type="text" name="dis_code" value=""><br><br>
+            <label>Terms and conditions*</label><br>
+            <input type="radio" name="tnc" value="agree" checked>I agree
+            <input type="radio" name="tnc" value="disagree" >I disagree<br><br>
+            <button type="submit" class="btn btn-large btn-primary" name="submit">Complete reservation</button>
+        </form>
+    </div>
+</body>
+
+</html>
